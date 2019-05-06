@@ -20,7 +20,8 @@ user-select: none;
 }
 
 .taj-p{
-  padding: 3rem 1.5rem;
+  padding: 6rem 1.5rem;
+  margin-top: -3rem;
   text-align: center;
 }
 
