@@ -58,8 +58,15 @@
             <a class="dropdown-item" href="./mobility.html#content">Mobility</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./company.html#content">Company</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Company</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <div class="dropdown-header">All Atlassian</div>
+              <a class="dropdown-item" href="./company.html#content">Team</a>
+              <a class="dropdown-item" href="./company.html#locations">Locations</a>
+              <a class="dropdown-item" href="./company.html#contact">Contact Us</a>
+            </div> 
         </li>
       </ul>
     </div>
@@ -100,11 +107,11 @@
       </a>
       <a href="https://www.certmetrics.com/atlassian/public/badge.aspx?t=c&d=2019-02-16&i=5&ci=AT00137945"
         target="_blank">
-        <img src="./Resources/img/tomas/certificado2.png" alt="certificate2" height="62" width="65">
+        <img id="locations" src="./Resources/img/tomas/certificado2.png" alt="certificate2" height="62" width="65">
       </a>
     </div>
     <br>
-    <br id="locations">
+    <br>
     <div class="container" style="text-align: center">
       <h3 style="text-align: center">Locations</h3>
       <span>
@@ -119,10 +126,9 @@
         Tampa Bay, Florida.
         <img src="./Resources/img/artwork/taj03.png" alt="taj01" width="64" height="130">
       </span>
-
     </div>
     <br/>
-    <div class="container" style="text-align: center">
+    <div class="container taj-p" id="contact" style="text-align: center">
         <h3 style="text-align: center"> Contact Us</h3>
         <p>To learn more about our products and services or just for a quick chat to know how we can help your teams to be “agile-transformed” by using our TAJ approach please contact us at:</p>
         <p>tomas.arguinzones@tajconsultinggroup.com</p>
@@ -166,6 +172,7 @@
           <ul class="list-unstyled text-small">
             <li><a class="text-muted" href="./company.html#content">Team</a></li>
             <li><a class="text-muted" href="./company.html#locations">Locations</a></li>
+            <li><a class="text-muted" href="./company.html#contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
